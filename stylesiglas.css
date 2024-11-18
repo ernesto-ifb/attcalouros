@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body, header, footer{
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+header{
+    height: 100px;
+    background-color: #026D81;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.logocal{
+    width: 90px;
+}
+.logoif{
+    width: 100px;
+    margin-left: auto;
+
+}
+.t1{
+    font-size: 44px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.div1 { 
+    background-color: #F1EAE0;
+    white-space: pre-line;
+    padding-bottom: 60px; /* Ajusta o padding inferior para não deixar tanto espaço */
+    flex-direction: row; /* Organiza as divs na mesma linha */
+    
+}
+
+.s1 {
+    color: #E9311A;
+    font-size: 80px;
+    text-align: center;
+}
+
+.s2 {
+    color: #ED6335;
+    font-size: 44px;
+    text-align: center;
+}
+
+.setabaixo {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+}
+
+.linhasig {
+    position: absolute;
+    top: 620px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1000px;
+}
+
+.esq, .dir {
+    font-size: 18px;
+    width: 550px;
+}
+
+.esq {
+    margin-top: 220px;
+    margin-left: 90px;
+}
+
+.dir {
+    margin-top: -1080px; /* Certifique-se de que ambas as divs estejam alinhadas */
+    margin-left: 700px;
+}
+
+.l1, .l3, .l5, .l7, .l9, .l11, .d1, .d3, .d5, .d7, .d9, .d11 {
+    color: #064C72;
+    width: 550px;
+}
+
+.l2, .l4, .l6, .l8, .l10, .l12, .d2, .d4, .d6, .d8, .d10, .d12 {
+    color: #ED6335;
+    width: 550px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    height: 100px;
+    background-color: #026D81;
+    color: white;
+    font-size: 24px;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.li1, .li2{
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.email{
+    right: 15px;
+    position: relative;
+    text-align: right;
+    bottom: 20px;
+}

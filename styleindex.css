@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body, header, footer{
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+header{
+    height: 100px;
+    background-color: #026D81;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.logocal{
+    width: 90px;
+}
+.logoif{
+    width: 100px;
+    margin-left: auto;
+
+}
+.t1{
+    font-size: 44px;
+    flex-grow: 1;
+    text-align: center;
+}
+.div1{
+    height: 500px;
+    background-color: #F1EAE0;
+}
+.l1, .l2, .l3, .l4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.l1, .l2, .l4{
+    color: #E3562B;
+}
+.l1{
+    font-size: 108px;
+}
+.l2{
+    font-size: 44px;
+    top: 30px;
+}
+.l3{
+    font-size: 25px;
+    color: #ECAE7D;
+    top: 50px;
+}
+.l4{
+    font-size: 108px;
+    font-style: italic;
+    z-index: 1;
+    top: 80px;
+}
+.retangulu{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+    width: 630px;
+}
+.tracolaranja{
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.div2{
+    height: 500px;
+    background-color: #8DB5AD;
+}
+.b2, .b3, .b4{
+    position: relative;
+    color: white;
+    white-space: pre-line;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 24px;
+    
+}
+.b1{
+    padding-top: 30px;
+    position: relative;
+    color: #026D81;
+    font-size: 80px;
+    text-align: center;
+
+}
+.azul1, .azul2{
+    height: 4px;
+    padding-left: 50px;
+}
+
+.b3{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    top: 10px;
+}
+.azul2{
+    top: 10px;
+    
+}
+.b4{
+    top: 10px;
+}
+.seta1, .seta2, .seta3{
+    position: absolute;
+    height: 100px;
+}
+.seta1{
+    top: 730px;
+    left: 500px;
+}
+.seta2{
+    top: 840px;
+    left: 400px;
+}
+.seta3{
+    right: 400px;
+    top: 980px;
+}
+.div3{
+    height: 700px;
+    background-color: #F1EAE0;
+    padding-top: 80px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.qs, .faq, .mapa, .siglas, .calen{
+    height: 200px;
+    position: relative;
+}
+.qst, .faqt, .mapat, .siglast, .calent{
+    position: relative;
+    color: #E93119;
+    font-size: 24px;
+    width: 230px;
+}
+.qst{
+    left: 23px;
+}
+.faq, .faqt{
+    left: 430px;
+    bottom: 230px;
+}
+.faqt{
+    left: 515px;
+}
+.mapa, .mapat{
+    position: absolute;
+    right: 80px;
+    top: 1190px;
+}
+.mapat{
+    top: 1390px;
+    right: 60px
+}
+.siglas, .siglast{
+    position: absolute;
+    top: 1440px;
+    left: 330px;
+    
+}
+.siglast{
+    top: 1650px;
+    left: 396px;
+}
+.calen, .calent{
+    position: absolute;
+    right: 300px;
+    top: 1450px;
+}
+.calent{
+    top: 1655px;
+    right: 256px;
+}
+footer{
+    height: 100px;
+    background-color: #026D81;
+    color: white;
+    font-size: 24px;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.li1, .li2{
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+.email{
+    right: 15px;
+    position: relative;
+    text-align: right;
+    bottom: 20px;
+}
