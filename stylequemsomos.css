@@ -46,7 +46,7 @@ header {
     justify-items: center;
 }
 
-.item {
+.item1, .item2, .item3, .item4, .item5, .item6{
     text-align: center;
 }
 
@@ -83,4 +83,54 @@ a {
     position: relative;
     text-align: right;
     bottom: 20px;
+}
+@media screen and (max-width: 480px){
+    /* celular */
+    .t1{
+        font-size: 35px;
+    }
+    .logocal{
+        width: 75px;
+    }
+    .logoif{
+        width: 90px;
+        padding-right: 10px;
+    }
+    
+    footer{
+        font-size: 18px;
+    }
+    .email{
+        top: 10px;
+    }
+    .div1{
+        height: 2400px;
+    }
+    .item1, .item2, .item3, .item4, .item5, .item6{
+        position: relative;
+    }
+    .item1, .item4{
+        left: 70px;
+    }
+    .item2, .item5{
+        right: 160px;
+    }
+    .item3, .item6{
+        right: 390px;
+    }
+    .item2{
+        top: 380px;
+    }
+    .item3{
+        top: 700px;
+    }
+    .item4{
+        top: 650px;
+    }
+    .item5{
+        top: 1000px;
+    }
+    .item6{
+        top: 1350px;
+    }
 }

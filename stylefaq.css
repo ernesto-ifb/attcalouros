@@ -102,6 +102,7 @@ a{
     bottom: 20px;
 }
 @media screen and (max-width: 768px) {
+    /* tablet */
     .div1{
         height: 2500px;
     }
@@ -114,5 +115,40 @@ a{
     }
     .linha3, .linha4, .linha5, .linha6, .linha7, .linha8, .linha9, .linha10{
         font-size: 20px;
+    }
+}
+@media screen and (max-width: 480px){
+    /* celular */
+    .t1{
+        font-size: 35px;
+    }
+    .logocal{
+        width: 75px;
+    }
+    .logoif{
+        width: 90px;
+        padding-right: 10px;
+    }
+    
+    footer{
+        font-size: 18px;
+    }
+    .email{
+        top: 10px;
+    }
+    .fundoazul{
+        top: -320px;
+        width: 300px;
+        height: 380px;
+    }
+    .linha2{
+        font-size: 18px;
+        width: 250px;
+    }
+    .linha3, .linha4, .linha5, .linha6, .linha7, .linha8, .linha9, .linha10{
+        top: -300px;
+    }
+    .div1{
+        height: 3800px;
     }
 }

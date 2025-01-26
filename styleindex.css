@@ -51,7 +51,6 @@ header{
 }
 .l3{
     font-size: 25px;
-
     top: 50px;
 }
 .l4{
@@ -103,7 +102,6 @@ header{
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    top: px;
 }
 .azul2{
     top: 10px;  
@@ -207,6 +205,7 @@ a{
     bottom: 20px;
 }
 @media screen and (max-width: 768px) {
+    /* tablet */
     .l1{
         font-size: 80px;
     }
@@ -290,5 +289,130 @@ a{
     .siglast{
         left: 500px;
         top: 1620px;
+    }
+}
+@media screen and (max-width: 480px){
+    /* celular */
+    .t1{
+        font-size: 35px;
+    }
+    .logocal{
+        width: 75px;
+    }
+    .logoif{
+        width: 90px;
+        padding-right: 10px;
+    }
+    
+    footer{
+        font-size: 18px;
+    }
+    .email{
+        top: 10px;
+    }
+    
+    .div1{
+        height: 400px;
+        padding-top: 40px;
+    }
+    .l1{
+        font-size: 48px;
+    }
+    .tracolaranja{
+        height: 5px;
+    }
+    .l2{
+        font-size: 22px;
+    }
+    .l3{
+        font-size: 16px;
+    }
+    .retangulu{
+        width: 340px;
+    }
+    .l4{
+        font-size: 58px;
+        top: 110px;
+    }
+    .b1{
+        font-size: 40px;
+    }
+    .azul1, .azul2{
+        height: 1.5px;
+    }
+    .b2, .b3, .b4{
+        font-size: 15px;
+        width: 400px;
+    }
+    .b2, .b4{
+        right: 20px;
+    }
+    .b3{
+        right: 15px;
+    }
+    .seta1{
+        left: 300px;
+        top: 570px;
+    }
+    .seta2{
+        top: 680px;
+    }
+    .seta3{
+        left: 300px;
+        top: 800px;
+    }
+    .seta1, .seta2, .seta3{
+        height: 85px;
+    }
+    .qs, .faq, .mapa, .siglas, .calen{
+        height: 80px;
+    }
+    .qst, .faqt, .mapat, .siglast, .calent{
+        font-size: 16px;
+        width: 100px;
+    }
+    .qs{
+        right: 90px;
+    }
+    .qst{
+        left: -100px;
+        width: 120px;
+    }
+    .faq{
+        left: 40px;
+        top: -104px;
+    }
+    .faqt{
+        left: 70px;
+        top: -104px;
+    }
+    .mapa{
+        left: 270px; 
+        top: 1080px;
+    }
+    .mapat{
+        text-align: center;
+        left: 262px;
+        top: 1170px;
+        width: 100px;
+    }
+    .calen{
+        left: 90px;
+        top: 1250px;
+    }
+    .calent{
+        left: 85px;
+        top: 1330px;
+    }
+    .siglas{
+        left: 210px;
+        top: 1250px;
+    }
+    .siglast{
+       left: 225px; 
+       top: 1330px;
+    }
+    .div3{
+        height: 400px;
     }
 }
