@@ -142,18 +142,19 @@ header{
 .qst, .faqt, .mapat, .siglast, .calent{
     position: relative;
     color: #E93119;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 900;
     width: 230px;
 }
 .qst{
-    left: 23px;
+    left: 5px;
 }
 .faq, .faqt{
     left: 430px;
     bottom: 230px;
 }
 .faqt{
-    left: 515px;
+    left: 508px;
 }
 .mapa, .mapat{
     position: absolute;
@@ -162,7 +163,8 @@ header{
 }
 .mapat{
     top: 1390px;
-    right: 60px
+    right: 10px;
+    width: 300px;
 }
 .siglas, .siglast{
     position: absolute;
