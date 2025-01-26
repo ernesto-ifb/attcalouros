@@ -101,3 +101,18 @@ a{
     text-align: right;
     bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+    .div1{
+        height: 2500px;
+    }
+    .fundoazul{
+        width: 600px;
+    }
+    .linha2{
+        font-size: 21px;
+        width: 550px;
+    }
+    .linha3, .linha4, .linha5, .linha6, .linha7, .linha8, .linha9, .linha10{
+        font-size: 20px;
+    }
+}

@@ -92,28 +92,6 @@ header{
     width: 550px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
     height: 100px;
     background-color: #026D81;
@@ -135,4 +113,31 @@ a{
     position: relative;
     text-align: right;
     bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+
+    .s1{
+        font-size: 60px;
+    }
+    .s2{
+        font-size: 37px;
+    }
+    .setabaixo{ position: relative;
+        top: -2400px;
+    }
+    .linhasig{
+        display: none;
+    }
+    .esq, .dir{
+        font-size: 28px;
+    }
+    .dir{
+        position: relative;
+        top: 800px;
+        right: 610px;
+    }
+    .div1{
+        height: 4800px;
+    }
+
 }
