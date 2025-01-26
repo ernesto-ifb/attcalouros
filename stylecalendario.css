@@ -36,12 +36,14 @@ header {
 div{
     text-align: center;
     font-size: 100px;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.texto{
+    font-size: 100px;
+}
 
 footer {
     height: 100px;
@@ -67,4 +69,30 @@ a {
     position: relative;
     text-align: right;
     bottom: 20px;
+}
+@media screen and (max-width: 480px){
+    /* celular */
+    .t1{
+        font-size: 35px;
+    }
+    .logocal{
+        width: 75px;
+    }
+    .logoif{
+        width: 90px;
+        padding-right: 10px;
+    }
+    
+    footer{
+        font-size: 18px;
+    }
+    .email{
+        top: 10px;
+    }
+    .texto{
+        font-size: 50px;
+    }
+    div{
+        height: 700px;
+    }
 }

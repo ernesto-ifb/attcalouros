@@ -205,7 +205,7 @@ a{
     bottom: 20px;
 }
 @media screen and (max-width: 768px) {
-    /* tablet */
+    
     .l1{
         font-size: 80px;
     }

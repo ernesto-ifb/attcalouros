@@ -64,7 +64,7 @@ header{
     top: 620px;
     left: 50%;
     transform: translateX(-50%);
-    height: 2400px;
+    height: 3400px;
 }
 
 .esq, .dir {
@@ -78,17 +78,17 @@ header{
 }
 
 .dir {
-    margin-top: -2280px; 
+    margin-top: -3450px; 
     margin-left: 700px;
 }
 
-.l1, .l3, .l5, .l7, .l9, .l11, .d1, .d3, .d5, .d7, .d9, .d11 {
+.l1, .l3, .l5, .l7, .l9, .l11, .l13, .l15, .l17, .l19, .d1, .d3, .d5, .d7, .d9, .d11, .d13, .d15, .d17, .d19 {
     color: #064C72;
     width: 550px;
     font-size: 30px;
 }
 
-.l2, .l4, .l6, .l8, .l10, .l12, .d2, .d4, .d6, .d8, .d10, .d12 {
+.l2, .l4, .l6, .l8, .l10, .l12, .l14, .l16, .l18, .l20, .d2, .d4, .d6, .d8, .d10, .d12, .d14, .d16, .d18, .d20 {
     color: #ED6335;
     width: 550px;
     font-size: 28px;
@@ -169,8 +169,7 @@ a{
         font-size: 25px;
     }
     .setabaixo{ position: relative;
-        top: -1900px;
-        /* height: 10000px; */
+        top: -2700px;
     }
     
     .esq, .dir{ position: relative;
@@ -181,15 +180,18 @@ a{
     }
     .dir{
         position: relative;
-        top: 2000px;
+        top: 3140px;
         right: 670px;
     }
-    .l1, .l3, .l5, .l7, .l9, .l11, .d1, .d3, .d5, .d7, .d9, .d11 {
+    .l1, .l3, .l5, .l7, .l9, .l11, .l13, .l15, .l17, .l19, .d1, .d3, .d5, .d7, .d9, .d11, .d13, .d15, .d17, .d19 {
         font-size: 20px;
         width: 300px;
     }
-    .l2, .l4, .l6, .l8, .l10, .l12, .d2, .d4, .d6, .d8, .d10, .d12 {
+    .l2, .l4, .l6, .l8, .l10, .l12, .l14, .l16, .l18, .l20, .d2, .d4, .d6, .d8, .d10, .d12, .d14, .d16, .d18, .d20 {
         font-size: 16px;
         width: 300px;
+    }
+    .div1{
+        height: 5300px;
     }
 }
