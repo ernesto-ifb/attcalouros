@@ -47,7 +47,7 @@ header{
 }
 .linha2{
     z-index: 1;
-    color: white;
+    color: #064C72;
     font-size: 28px;
     text-align: left;
     margin-left: auto;
@@ -56,9 +56,9 @@ header{
     position: relative;
     top: 30px;
 }
-.cor2{
+/* .cor2{
     color: #026C80;
-}
+} */
 .fundoazul{
     position: relative;
     width: 1000px;
