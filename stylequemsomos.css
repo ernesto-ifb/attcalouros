@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+
+body, header, footer {
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
+header {
+    height: 100px;
+    background-color: #026D81;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.logocal {
+    width: 90px;
+}
+
+.logoif {
+    width: 100px;
+    margin-left: auto;
+}
+
+.t1 {
+    font-size: 44px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.div1 {
+    background-color: #F1EAE0;
+    white-space: pre-line;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.item {
+    text-align: center;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6 {
+    width: 200px;
+    height: auto;
+}
+
+.j1, .j2, .j3, .j4, .j5, .j6 {
+    color: #E9311A;
+}
+
+footer {
+    height: 100px;
+    background-color: #026D81;
+    color: white;
+    font-size: 24px;
+    /* text-align: center; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.li1, .li2 {
+    position: relative;
+    left: 15px;
+    top: 15px;
+}
+
+.email {
+    right: 15px;
+    position: relative;
+    text-align: right;
+    bottom: 20px;
+}
